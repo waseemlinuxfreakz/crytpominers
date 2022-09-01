@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container {
+  display: block;
+}
+
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+ol,
+ul,
+dl {
+  margin: 0;
+  list-style: none;
+}
+
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+  padding: 0;
+  list-style: none;
+}
+
+div#App {
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* end css reset
+=================> */
+
+.header_area {
+  padding: 50px 0 150px;
+  background: url("images/cm-banner.png") no-repeat center / cover;
+  text-align: center;
+}
+
+.logo.site-link img {
+  max-width: 150px;
+}
+.crypto-logo img {
+  max-width: 60px;
+  max-width: 150px;
+}
+
+.pricelist p {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1;
+  text-align: center;
+  color: #ffd600;
+}
+.banner-text p {
+  font-weight: 500;
+  color: #fff;
+}
+/* header-style end
+====================== */
+#main-section {
+  background: url(images/bg.png) repeat center;
+}
+#main-section .col-lg-12 {
+  margin-top: -50px;
+}
+
+.data-heading {
+  background: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.yellow .data-heading {
+  background-color: #ffd600;
+}
+.light .data-heading {
+  background-color: #eeeeee;
+}
+.dark-blue .data-heading {
+  background-color: #005189;
+}
+.dark-blue .data-heading .crypto-link a {
+  color: #fff;
+}
+
+.data-conteiner {
+  margin: 0 0 60px;
+}
+
+.data-heading .divider-arrow {
+  /* flex: 0 0 60%;
+  max-width: 60%; */
+  padding: 0 20px;
+}
+
+.data-heading .crypto-link a {
+  display: block;
+  text-align: right;
+  font-weight: 500;
+  color: #000;
+}
+
+/* start footer 
+====================== */
+
+footer {
+  padding: 50px 0;
+}
+.footer-lists ol {
+  list-style: number;
+}
+
+.footer-bottom-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.contact-info a {
+  color: #000;
+  transition: 0.3s;
+  font-weight: 700;
+}
+.contact-info a:hover {
+  color: #333;
+}
+.data-conteiner.dark-white .data-heading {
+  background-color: #ffffff;
+}
+.data-conteiner.dark-blue .data-heading {
+  background-color: #005189;
+}
+.data-conteiner.dark-bluelight .data-heading {
+  background-color: #012b64;
+}
+.data-conteiner.dark-skyblue .data-heading {
+  background-color: #3771ff;
+}
+.data-conteiner.dark-blueblack .data-heading {
+  background-color: #04062c;
+}
