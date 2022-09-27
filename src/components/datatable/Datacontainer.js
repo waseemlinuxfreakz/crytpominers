@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import useFetch from '../../Utils/useFetch';
 import Table from "react-bootstrap/Table";
 
