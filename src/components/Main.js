@@ -1,4 +1,4 @@
-import {React,useEffect,useState} from "react";
+import React, { useEffect, useState } from "react";
 import useFetch from '../Utils/useFetch';
 import Foooter from "./Footer";
 
